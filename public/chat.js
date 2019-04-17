@@ -1,4 +1,4 @@
-const socket=io()//io para comunicacion bidireccional, este es del lado de html // en caso de no conectarse se pone io('http://midominio.com') - socket guarda todo el frontEnd para enviar al servidor 
+const socket=io('https://javierprocelf.github.io/chatSocket/public/')//io para comunicacion bidireccional, este es del lado de html // en caso de no conectarse se pone io('http://midominio.com') - socket guarda todo el frontEnd para enviar al servidor 
 //DOM Elements of html
 let message=document.getElementById('chatM');//llamamos a traves del documento la variable chatM de mensaje
 let username=document.getElementById('chatU');
