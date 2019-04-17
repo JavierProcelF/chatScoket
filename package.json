@@ -2,7 +2,7 @@
   "name": "socketiochat",
   "version": "1.0.0",
   "description": "SOcket IO Chat en tiempo real",
-  "main": "index.js",
+  "main": "./public/index.html",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
